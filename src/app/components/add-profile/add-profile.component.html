@@ -1,0 +1,54 @@
+<div class="add-profile-container">
+    <h1>ADD PROFILE</h1>
+    <div class="button">
+        <button type="submit" (click)="onSubmit()">Submit</button>
+    </div>
+    <form class="add-profile-form">
+        <div class="inputfield row col-md-12">
+            <div class="label col-md-2">
+                <label for="name">Name</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="name" [(ngModel)]="person.name" name="name">
+            </div>
+        </div>
+    
+        <div class="inputfield row col-md-12">
+            <div class="label col-md-2">
+                <label for="frontImage">Front Image URL</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="frontImage" [(ngModel)]="person.img" name="frontImage">
+                <i class="fa-solid fa-circle-info info-icon" title="Copy image address from google"></i>
+            </div>
+        </div>
+    
+        <div class="inputfield row col-md-12">
+            <div class="label col-md-2">
+                <label for="backImage">Back Image URL</label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="backImage" [(ngModel)]="person.img1" name="backImage">
+                <i class="fa-solid fa-circle-info info-icon" title="Copy image address from google"></i>
+            </div>
+        </div>
+    
+        <div class="inputfield row col-md-12">
+            <div class="label col-md-2">
+                <label for="title">Title <span class="mandatory">*</span></label>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="title" [(ngModel)]="person.title" name="title" required>
+            </div>
+        </div>
+    
+        <div class="inputfield row col-md-12">
+            <div class="label col-md-2">
+                <label for="description">Description</label>
+            </div>
+            <div class="col-md-6">
+                <textarea id="description" [(ngModel)]="person.description" name="description" rows="8"></textarea>
+            </div>
+        </div>
+    </form>
+</div>

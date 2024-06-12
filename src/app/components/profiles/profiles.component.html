@@ -1,0 +1,23 @@
+<div>
+    <h1>PROFILE CARDS</h1>
+</div>
+<div class="button">
+    <button (click)="newProfile()">Add New</button>
+</div>
+<div class="main-block">
+  <div class="card" *ngFor="let person of persons" (click)="flipCard(person)">
+    <div class="card-inner" [class.flipped]="person.flipped">
+      <div class="card-front">
+        <img [src]="person.img" [alt]="person.name">
+      </div>
+      <div class="card-back">
+        <img [src]="person.img1" [alt]="person.name">
+        <p class="person-title" [title]="person.title">{{ person.title | truncate:['18', '.....'] }}</p>
+        <div class="description">
+          <p class="person-description">{{ person.description }}</p>
+        </div>
+        <i class="fa-solid fa-trash" (click)="deleteProfile(person)"></i>
+      </div>
+    </div>
+  </div>
+</div>
