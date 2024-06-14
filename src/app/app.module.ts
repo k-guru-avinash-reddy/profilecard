@@ -7,6 +7,7 @@ import { ProfilesComponent } from './components/profiles/profiles.component';
 import { AddProfileComponent } from './components/add-profile/add-profile.component';
 import { TruncatePipe } from './components/pipes/truncate.pipe';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     AppRoutingModule
   ],
   providers: [],
