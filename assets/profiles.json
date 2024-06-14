@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Mobile",
+      "img": "assets/images/Cellphone.jpeg",
+      "img1": "assets/images/Cellphone1.jpeg",
+      "title": "Cell Phone",
+      "description": "Cell phones have revolutionized communication, offering instant connection worldwide. With features like calls, texts, internet access, and apps, they've become indispensable tools for work, socializing, and entertainment, enhancing productivity and convenience in daily life.",
+      "flipped": false
+    },
+    {
+      "name": "Dhoni",
+      "img": "assets/images/Dhoni.jpg",
+      "img1": "assets/images/Dhoni1.jpg",
+      "title": "MS Dhoni",
+      "description": "MS Dhoni, a legendary cricketer from India, is renowned for his calm demeanor and exceptional leadership. As captain, he led India to victories in the ICC T20 World Cup 2007, ICC World Cup 2011, and ICC Champions Trophy 2013. A master finisher, Dhoni is celebrated for his match-winning abilities and sharp wicket-keeping skills.",
+      "flipped": false
+    },
+    {
+    "name": "Jane Smith",
+    "img": "assets/images/Default.jpg",
+    "img1": "assets/images/Default1.jpg",
+    "title": "Product Manager",
+    "description": "Jane is a software engineer with 5 years of experience who designs, develops, and maintains software systems. He apply engineering principles to solve problems and create software solutions, working on everything from websites and mobile apps to operating systems and databases.",
+    "flipped": false
+    },
+    {
+    "name": "Kohli",
+    "img": "assets/images/Kohli.jpg",
+    "img1": "assets/images/Kohli1.jpeg",
+    "title": "Virat Kohli",
+    "description": "Virat Kohli is a renowned Indian cricketer known for his aggressive batting style and leadership skills. He has numerous records to his name, including being one of the fastest to score 10,000 ODI runs. Kohli is celebrated for his consistent performance and dedication to fitness.",
+    "flipped": false
+    },
+    {
+    "name": "Sunrise",
+    "img": "assets/images/Sunrise.jpg",
+    "img1": "assets/images/Sunrise1.jpeg",
+    "title": "SunRise",
+    "description": "The sunrise, a celestial spectacle marking the dawn of a new day, infuses the sky with vibrant hues, igniting hope and renewal. Its gentle warmth awakens the earth, stirring life from slumber, while casting a golden glow that whispers promises of possibilities and beginnings.",
+    "flipped": false
+    },
+    {
+    "name": "Meditation",
+    "img": "assets/images/Meditation.jpg",
+    "img1": "assets/images/Meditation1.jpeg",
+    "title": "Meditation",
+    "description": "Meditation is a practice of focused mindfulness that promotes mental clarity and emotional calm. It reduces stress, anxiety, and depression while enhancing concentration, self-awareness, and overall well-being. Regular meditation improves sleep quality, boosts immunity, and fosters a sense of inner peace and balance.",
+    "flipped": false
+    },
+    {
+    "name": "Hiking",
+    "img": "assets/images/Hiking.jpg",
+    "img1": "assets/images/Hiking1.jpeg",
+    "title": "Hiking",
+    "description": "Hiking, an exhilarating adventure amidst nature's embrace, invigorates the soul and stimulates the senses. With each step, discover scenic vistas, hidden trails, and the symphony of wilderness. It's a journey of self-discovery, resilience, and serenity, where challenges become triumphs, and every path leads to new horizons.",
+    "flipped": false
+    },
+    {
+    "name": "Rohit",
+    "img": "assets/images/Rohit.jpg",
+    "img1": "assets/images/Rohit1.jpg",
+    "title": "Rohit Sharma",
+    "description": "Rohit Sharma, an Indian cricketer and captain of the Indian national team, is renowned for his exceptional batting skills. Known for his ability to score big centuries, he holds the record for the highest individual score in ODIs (264 runs) and has hit multiple double centuries in limited-overs cricket.",
+    "flipped": false
+    }
+  ]
